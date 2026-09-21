@@ -5,6 +5,7 @@ description = "Segment, quarantine and release assets managed by Zero Networks"
 license = "Copyright (c) 2026 Splunk Inc."
 requires-python = ">=3.13, <3.15"
 authors = [
+    { name = "SecurityJedi" },
 ]
 dependencies = [
     "httpx>=0.28.1",
