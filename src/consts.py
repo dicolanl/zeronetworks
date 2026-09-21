@@ -18,6 +18,15 @@
 DEFAULT_BASE_URL = "https://portal.zeronetworks.com/api/v1"
 
 # Endpoints, relative to the asset's base URL.
+ASSET_SEARCH_ENDPOINT = "/assets/searchId"
+ASSET_QUARANTINE_ENDPOINT = "/assets/{asset_id}/actions/quarantine"
 CONNECTIVITY_ENDPOINT = "/assets/statistics"
+
+# Zero Networks asset IDs look like "a:a:JF2xro6g" -- see the assetIdParameter
+# schema in the Zero Networks OpenAPI spec.
+ASSET_ID_PATTERN = r"^a:[a-zA-Z]:[a-zA-Z0-9]{8}$"
+
+# CEF contains-type used to chain the asset ID between actions in the SOAR UI.
+CEF_ZN_ASSET_ID = "zeronetworks asset id"
 
 DEFAULT_TIMEOUT_SECONDS = 30
