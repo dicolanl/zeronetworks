@@ -59,7 +59,7 @@ class Asset(BaseAsset):
 
 
 app = App(
-    name="Zero Networks",
+    name="Zero Networks for Splunk SOAR",
     app_type="network security",
     logo="logo.svg",
     logo_dark="logo_dark.svg",

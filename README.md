@@ -1,4 +1,4 @@
-# Zero Networks
+# Zero Networks for Splunk SOAR
 
 Publisher: Splunk Inc. <br>
 Connector Version: 1.0.0 <br>
@@ -53,7 +53,7 @@ state they applied rather than a state read back from the API.
 
 ### Configuration variables
 
-This table lists the configuration variables required to operate Zero Networks. These variables are specified when configuring a Zero Networks Segment asset in Splunk SOAR.
+This table lists the configuration variables required to operate Zero Networks for Splunk SOAR. These variables are specified when configuring a Zero Networks Segment asset in Splunk SOAR.
 
 VARIABLE | REQUIRED | TYPE | DESCRIPTION
 -------- | -------- | ---- | -----------
