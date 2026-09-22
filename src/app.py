@@ -59,7 +59,7 @@ class Asset(BaseAsset):
 
 
 app = App(
-    name="zeronetworks",
+    name="Zero Networks",
     app_type="network security",
     logo="logo.svg",
     logo_dark="logo_dark.svg",
